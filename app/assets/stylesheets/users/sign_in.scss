@@ -1,0 +1,39 @@
+.signinPage {
+  margin-top: 10vh;
+
+  .title {
+    color: #fd5068;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .userIcon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fd5068;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginBtn {
+    background: #fd5068;
+    color: #fff;
+    padding: 12px;
+    border-radius: 21px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity .5s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
